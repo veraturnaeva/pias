@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+body {
+	background: #000;
+	color:#FFF;
+	padding: 0;
+	margin: 0;
+	font-size: 30px;
+	font-family: 'Roboto', serif;
+	font-weight: 400;
+	line-height: 1.55 em;
+	text-transform: uppercase;
+}
+
+.container {
+	width: 1110px;
+	margin: 0px auto;
+}
+
+.header {
+	padding-top: 30px;
+	font-weight: 700;
+}
+
+.nav {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu a {
+	font-size: 24px;
+	width:auto;
+	display: inline-block;
+	margin-right: 1em; 
+	font-weight: 700;
+
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1400FF;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.privet {
+	margin-top: 180px;
+	width: 454px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.55em;
+}
+.vopros {
+	width: 454px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.55em;
+	margin-bottom: 50px;
+	
+}
+
+.btn {
+	padding: 18px 40px;
+	border: #fff 3px solid;
+	font-weight: 700;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.btn:hover {
+	color: #fff;
+	background: #BD00FF;
+	border: #000 3px solid;
+}
+
+.ratdance {
+	margin-right: 150px;
+	margin-top: 120px;
+	margin-left: 30px;
+	width: 370px;
+	height: 390px;
+}
+
+.header-сontact {
+	font-size: 30px;
+	font-weight: 700;
+	color: #FFBEF5;
+	margin-top: 60px;
+}
+
+.contact-content {
+	margin-left: 243px;
+}
+
+.Cards {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.Nast-content {
+  position:relative;
+  width:300px;
+  height:225px;
+}
+ 
+.Nastya {
+	position:absolute;
+  	height:100%;
+  	width:auto;
+  	top: 60px;
+  	margin-left:40px;
+  	margin-top: -50px;
+}
+ 
+.Shape {
+  	position:absolute;
+  	width:100%;
+}
+
+.centerlink {
+	text-align: center
+}
+
+.Cards a{
+	font-size: 15px;
+	font-weight: 700;
+	position:relative;
+	margin-left:15px;
+	margin-right: 10px;
+	top: 250px;
+	color: #FFBEF5;
+}
+
+.Cards  a:hover {
+	color: #CCFF00;
+}
+
+.Ann-content {
+  position:relative;
+  width:300px;
+  height:225px;
+}
+ 
+.Ann {
+	position:absolute;
+  	height:100%;
+  	width:auto;
+  	top: 60px;
+  	margin-left:40px;
+  	margin-top: -50px;
+}
+
+.Ver-content {
+  position:relative;
+  width:300px;
+  height:225px;
+}
+ 
+.Ver {
+	position:absolute;
+  	height:100%;
+  	width:auto;
+  	top: 60px;
+  	margin-left:40px;
+  	margin-top: -50px;
+}
+
+.Rat1 {
+	position: absolute;
+	width: 227px;
+	height: 136px;
+	left: 110px;
+	top: 170px;
+}
+
+.Rat2 {
+	position: absolute;
+	width: 151px;
+	height: 99px;
+	left: 540px;
+	top: 560px;
+}
+
+.Rat3 {
+	position: absolute;
+	width: 177px;
+	height: 190px;
+	left: 1230px;
+	top: 540px;
+}
+
+.vklink {
+	font-size: 15px;
+	font-weight: 700;
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 435px; 
+}
+
+.Test {
+	margin-top:50px;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: left;
+	color: #FFBEF5;
+}
+
+.labels {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	text-align: center;
+	
+}
+
+
+.img_result1 {
+	margin-top: 100px;
+	width: 200 px;
+	height: auto;
+}
+
+.res {
+	display: flex;
+	justify-content: space-between;
+}
+
+.txt1 p{
+	width: 450px;
+	margin-top: 100px;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.txt2 p{
+	width: 450px;
+	margin-top: 0px;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.btn2 {
+	padding: 7px 40px;
+	border: #fff 3px solid;
+	font-weight: 700;
+	font-size: 30px;
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	margin-bottom:2S0px;
+}
+
+.btn2:hover {
+	color: #fff;
+	background: #BD00FF;
+	border: #000 3px solid;
+}
+
+.img_result3 {
+	margin-top: 100px;
+	width: 50%;
+	height: auto;
+}
+
+.txt3 p{
+	width: 450px;
+	margin-top: 250px;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	margin-bottom: 60px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.btn3 {
+	padding: 18px 40px;
+	border: #fff 3px solid;
+	font-weight: 700;
+	font-size: 24px;
+	margin-top:50px;
+	width: 332px;
+}
+
+.btn3:hover {
+	color: #fff;
+	background: #BD00FF;
+	border: #000 3px solid;
+}
+
+.form-control {
+	font-size: 24px;
+	font-weight: 700;
+	text-align:center;
+}
+
+.col p{
+	text-align:center;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 80px;
+}
+
+.header-reg {
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 80px;
+	text-align:center;
+}
